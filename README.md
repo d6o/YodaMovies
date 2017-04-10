@@ -21,7 +21,7 @@ Get a random famous quote from a random movie and turn it to Yoad speak style.
 
 ## Demo
 
-[![asciicast](https://asciinema.org/a/5ib8bn3hu994fppvqaa8drq72.png)](https://asciinema.org/a/5ib8bn3hu994fppvqaa8drq72)
+[![asciicast](http://image.prntscr.com/image/9520fd2187d34fdd8dcc66f0e219843c.png)](https://asciinema.org/a/5ib8bn3hu994fppvqaa8drq72)
 
 ## Project Status
 
