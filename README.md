@@ -11,18 +11,7 @@ Get a random famous quote from a random movie and turn it to Yoad speak style.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Get 5 matches](#get-5-matches)
-  - [Get 10 matches](#get-10-matches)
-  - [Filter by Team](#filter-by-team)
-  - [Filter by Championship](#filter-by-championship)
-  - [Filter by Date](#filter-by-date)
-  - [Filter by Hour](#filter-by-hour)
-  - [Filter by Date and Hour](#filter-by-date-and-hour)
-  - [Filter by Location](#filter-by-location)
-  - [Filter by Round phase](#filter-by-round-phase)
-  - [Filter by Status](#filter-by-status)
-  - [Show only today matches](#show-only-today-matches)
-  - [Hide Finished matches](#hide-finished-matches)
+  - [Get](#get)
   - [Show help](#show-help)
 - [Contributing](#contributing)
   - [Bug Reports & Feature Requests](#bug-reports--feature-requests)
@@ -32,21 +21,21 @@ Get a random famous quote from a random movie and turn it to Yoad speak style.
 
 ## Demo
 
-[![asciicast](https://asciinema.org/a/a0m1ln1k1u2ibbh1n4mbty1do.png)](https://asciinema.org/a/a0m1ln1k1u2ibbh1n4mbty1do)
-
+[![asciicast](https://asciinema.org/a/e74aydph2oq4qy22sj1ptoljg.png)](https://asciinema.org/a/e74aydph2oq4qy22sj1ptoljg)
 ## Project Status
 
-BrazilianFootball is on beta. Pull Requests [are welcome](https://github.com/DiSiqueira/BrazilianFootball#social-coding)
+YoadMovies is on beta. Pull Requests [are welcome](https://github.com/DiSiqueira/BrazilianFootball#social-coding)
 
 ## Features
 
 - Open source - You can check out our code
 - Secure
 - Always up-to-date
-- Use decimal type
+- Big Quotes Database
+- Free to use
 - 100% satisfaction guaranteed
-- It's perfect to keep up-to-date with all football matches
-- STUPIDLY [EASY TO USE](https://github.com/DiSiqueira/BrazilianFootball#usage)
+- It's perfect to learn Yodish
+- STUPIDLY [EASY TO USE](https://github.com/DiSiqueira/YodaMovies#usage)
 - Very fast start up and response time
 - Uses native libs
 - Colorful
@@ -56,119 +45,48 @@ BrazilianFootball is on beta. Pull Requests [are welcome](https://github.com/DiS
 ### Option 1: Go Get
 
 ```bash
-$ go get github.com/disiqueira/BrazilianFootball
+$ go get github.com/disiqueira/yodamovies
 ```
 
 ## Usage
 
-### Get 5 matches
+### Get
 
 ```bash
-$ BrazilianFootball
-```
-
-### Get 10 matches
-
-```bash
-$ BrazilianFootball -limit=10
-```
-
-### Filter by Team
-
-```bash
-$ BrazilianFootball -team="Corinthians"
-```
-
-### Filter by Championship
-
-```bash
-$ BrazilianFootball -championship="Campeonato Paulista"
-```
-
-### Filter by Date
-
-```bash
-$ BrazilianFootball -date="02/04/2017"
-```
-
-### Filter by Hour
-
-```bash
-$ BrazilianFootball -hour="10:00"
-```
-
-### Filter by Date and Hour
-```bash
-$ BrazilianFootball -date="02/04/2017" -hour="10:00"
-```
-
-### Filter by Filter by Day of week
-
-```bash
-$ BrazilianFootball -dayOfWeek="Dom"
-```
-
-### Filter by Location
-
-```bash
-$ BrazilianFootball -location="Arena Joinville"
-```
-
-### Filter by Round phase
-
-```bash
-$ BrazilianFootball -phase="6ª rodada"
-```
-
-### Filter by Status
-
-```bash
-$ BrazilianFootball -status="Encerrada"
-```
-
-### Show only today matches
-
-```bash
-$ BrazilianFootball -today=true
-```
-
-### Hide Finished matches
-
-```bash
-$ BrazilianFootball -upcoming=true
+$ BrazilianFootballyodamovies -key=giouiTpuA4mshDQUKbpshr1d94ozp1yK2rWjsn2x2c0ssUoj4F
 ```
 
 ### Show Help
 
 ```bash
 # Show help
-$ BrazilianFootball -h
+$ yodamovies -h
 ```
 
 ## Program help
 
-![ProgramHelp](http://image.prntscr.com/image/fe46f19329144f67afa0f81ceb7f8dc5.png)
+![ProgramHelp](http://image.prntscr.com/image/058b83a147514cbabdc7e61a5069392c.png)
 
 ## Contributing
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/DiSiqueira/BrazilianFootball/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/DiSiqueira/YodaMovies/issues) to report any bugs or file feature requests.
 
 ### Developing
 
 PRs are welcome. To begin developing, do this:
 
 ```bash
-$ git clone https://github.com/disiqueira/BrazilianFootball.git BrazilianFootball
-$ cd BrazilianFootball/
+$ git clone https://github.com/disiqueira/YodaMovies.git yodamovies
+$ cd yodamovies/
 $ go get -v -d 
 ```
 
 ## Social Coding
 
 1. Create an issue to discuss about your idea
-2. [Fork it](https://github.com/DiSiqueira/BrazilianFootball/fork)
+2. [Fork it](https://github.com/DiSiqueira/YodaMovies/fork)
 3. Create your feature branch (`git checkout -b my-new-feature`)
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
