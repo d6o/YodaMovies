@@ -54,7 +54,7 @@ $ go get github.com/disiqueira/yodamovies
 ### Get
 
 ```bash
-$ BrazilianFootballyodamovies -key=giouiTpuA4mshDQUKbpshr1d94ozp1yK2rWjsn2x2c0ssUoj4F
+$ yodamovies -key=giouiTpuA4mshDQUKbpshr1d94ozp1yK2rWjsn2x2c0ssUoj4F
 ```
 
 ### Show Help
